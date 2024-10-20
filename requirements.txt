@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+load_dotenv
+langchain-groq
+langchain-huggingface
+langchain_google_genai
+langchain
