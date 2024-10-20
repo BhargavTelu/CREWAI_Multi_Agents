@@ -17,10 +17,6 @@ load_dotenv()
 #                            temperature=0.5,
 #                            google_api_key=os.getenv("GOOGLE_API_KEY"))
 
-# llm = LLM(
-#     model="gemini-1.5-flash",
-#     api_key="AIzaSyDK3medkP7K6WobCM_4ivPXYhNZCaCYQx4"
-# )
 
 llm=ChatOpenAI(model="gpt-3.5",api_key=os.getenv("OPENAI_API_KEY"))
 
